@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap');
 
 :root{
-    --cor-de-fundo: #0026524f;
+    --cor-de-fundo: #00001e;
     --verde: #26ff00ae;
-    --branco: #000000;
-    --botao-ativo: #1200d6c9;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --branco: #ffffff;
+    --botao-ativo: #00304f;
+    --botao-inativo: rgb(0, 47, 77);
+    --texto-fundo: rgb(255, 255, 255);
 }
 
 body{
@@ -68,6 +68,11 @@ body{
     .botao:last-child {
         border-radius: 0 40px 0 0;
     }
+}
+
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
 }
 
 
